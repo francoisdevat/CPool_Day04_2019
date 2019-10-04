@@ -11,8 +11,7 @@ int my_putstr(char const *str)
 
     while (str[i] != '\0')           
     {
-        my_putchar(str[i]);
         ++i;
     }
-    return 0;
+    return i;
 }
